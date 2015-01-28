@@ -79,9 +79,6 @@ jQuery(document).ready(function() {
 				var yPos = m.clientY; 
 				var xDiv = $(this).offset().left;
 				var yDiv = $(this).offset().top;
-				
-				console.debug('yDiv ' + yDiv);
-				console.debug("xDiv " + xDiv);
 
 				if(xPos < $(this).offset().left + 60 && xPos > $(this).offset().left + 14 && yPos < $(this).offset().top + 40 && yPos > $(this).offset().top + 10) {
 					jQuery(this).css("cursor", "pointer");

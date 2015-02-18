@@ -1,5 +1,5 @@
 9// -------------------------------------------------------------------------------- //
-//						INSIGHT DESIGNS PINTEREST PLUGIN
+//					   PINTEREST PLUGIN
 //					   CREATED 1/2015 BY CAITLIN McKENNA
 // -------------------------------------------------------------------------------- //
 
@@ -51,8 +51,8 @@ jQuery(document).ready(function() {
 						var currentPageURL = encodeURIComponent(window.location.href);
 						
 						// These variables should be changed, depending on the client
-						var guid = "EarRbThsivJP&url";
-						var brandDescription = "BevelCode // Brand on Style // ";
+						var guid = "Add Your Brand's GUID Here";
+						var brandDescription = "Add Your Brand's Description Here";
 						
 						// Don't change this variable, it will grab the alt tag from the images
 						var imageDescription = jQuery('img', jQuery(this)).attr('alt');
@@ -106,8 +106,8 @@ jQuery(document).ready(function() {
 						var currentPageURL = encodeURIComponent(window.location.href);
 						
 						// These variables should be changed, depending on the client
-						var guid = "EarRbThsivJP&url";
-						var brandDescription = "BevelCode // Brand on Style // ";
+						var guid = "Add Your Brand's GUID Here";
+						var brandDescription = " Add Your Brand's Description Here ";
 						
 						// Don't change this variable, it will grab the alt tag from the images
 						var imageDescription = jQuery('img', jQuery(this)).attr('alt');
